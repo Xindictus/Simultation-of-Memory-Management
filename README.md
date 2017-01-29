@@ -1,6 +1,6 @@
 # Simultation-of-Memory-Management
 - - -
-A program simulating the behavior of a memory management system based on real reference traces. We simulate two virtual processes which are reading line by line the reference traces from their respective file.
+A program simulating the behaviour of a memory management system based on real reference traces. We simulate two virtual processes which are reading line by line the reference traces from their respective file.
 
 The virtual memory is being built based on an inverted page table. When each virtual process reaches k + 1 page faults, a page replacement algorithm is used, specifically the FWF (Flush When Full) algorithm. 
 
